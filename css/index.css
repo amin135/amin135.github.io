@@ -229,6 +229,8 @@
 
    .logo-banner { 
       font-size: 5em; 
+    
+   
    }
 
 }
@@ -237,10 +239,14 @@
 
   .logo-banner { 
       font-size: 3.5em; 
+     
+  
 
    }
 
 }
+
+
 
 @media only screen and (min-width: 801px) {
 
@@ -257,6 +263,25 @@
       width: 60%;
       display: block;
       margin-left: 30%;
+   }
+
+   
+
+}
+
+
+@media only screen and (min-width: 801px) {
+
+   .sub-text a { 
+      text-decoration: none;
+   }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+   .sub-text a { 
+      text-decoration: underline;
    }
 
    
